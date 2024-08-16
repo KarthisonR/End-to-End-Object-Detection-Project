@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Autorickshaw', 'bus', 'car', 'motorcycle']
+
+roboflow:
+  workspace: end-to-end-project
+  project: ojbect-detectio
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/end-to-end-project/ojbect-detectio/dataset/1
